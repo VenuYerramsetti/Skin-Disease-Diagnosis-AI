@@ -1,58 +1,77 @@
-# MSc Research Project: AI-Powered Skin Disease Diagnosis (Image Analysis)
+# 👩‍⚕️🔬 AI-Powered Skin Disease Diagnosis: An MSc Research Project 🚀
 
-## Project Overview
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat&logo=python)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=flat&logo=tensorflow)](https://www.tensorflow.org/)
+[![Keras](https://img.shields.io/badge/Keras-green?style=flat&logo=keras)](https://keras.io/)
+[![Flask](https://img.shields.io/badge/Flask-black?style=flat&logo=flask)](https://flask.palletsprojects.com/)
+[![Scikit-learn](https://img.shields.io/badge/scikit--learn-blue?style=flat&logo=scikit-learn)](https://scikit-learn.org/stable/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat&logo=jupyter)](https://jupyter.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/)
 
-This repository showcases my Master's research project focused on developing an Artificial Intelligence solution for the diagnosis of common skin conditions and chronic wounds using deep learning and image analysis. The project demonstrates an end-to-end machine learning pipeline, from data acquisition and preprocessing to model training, evaluation, and deployment within a web application.
+---
 
-The primary goal was to create an accessible system to aid in the early detection and management of skin-related issues, addressing challenges like high treatment costs, time-consuming diagnoses, and the need for specialized medical expertise.
+## ✨ Project Overview
 
-## Key Features & Contributions
+This repository presents my Master of Science (MSc) research project focused on leveraging Artificial Intelligence for the automated diagnosis of common skin conditions and chronic wounds. The initiative addresses critical global healthcare challenges, including the high cost of treatment, diagnostic delays, and the significant morbidity associated with skin diseases. By developing an image-analysis-driven system, this project aims to enhance diagnostic accuracy and accessibility for conditions like **Diabetic Ulcers, Pressure Ulcers, Venomous Ulcers, Psoriasis, and Eczema**.
 
-* **Deep Learning Model Development:** Engineered a Convolutional Neural Network (CNN) for multi-class classification of five skin diseases/wound types: Diabetic, Pressure Ulcer, Venomous Ulcer, Psoriasis, and Eczema.
-* **High Performance:** Achieved a robust training accuracy of **85.72%** and a validation accuracy of **73.18%**, demonstrating the model's effectiveness in a complex medical imaging domain.
-* **Comprehensive Data Handling:** Managed and processed a diverse dataset of approximately 16,000 skin lesion images, integrating both proprietary data (from a contractual agreement) and publicly available sources (Kaggle).
-* **Advanced Image Preprocessing:** Implemented crucial steps including image resizing, strategic data augmentation (e.g., rotations, flips, zooms) to enhance dataset diversity and prevent overfitting, and normalization for optimal model training.
-* **Comparative Analysis:** Conducted a rigorous comparison of the CNN model's performance against traditional machine learning algorithms (Naïve Bayes, Decision Tree, Random Forest, Support Vector Machine), validating the superior efficacy of deep learning for this image-based diagnostic task.
-* **Model Optimization:** Utilized hyperparameter tuning techniques (e.g., GridSearchCV) to fine-tune model parameters, leading to improved accuracy and generalization.
-* **Web Application Integration:** Developed a Flask-based web application that allows users to upload skin lesion images for real-time AI-driven diagnosis and receive relevant tips and treatment suggestions.
-* **Full ML Lifecycle Proficiency:** Gained hands-on experience across the entire machine learning pipeline: data acquisition, cleaning, feature engineering (implicit in CNNs), model selection, training, evaluation (using Confusion Matrix, Precision, Recall, F1-score), and deployment.
-* **Future Scope:** Identified clear pathways for future enhancements, including leveraging increased computational resources to potentially achieve higher diagnostic accuracies (projected 95%) and integrating the solution into mobile applications for broader accessibility.
+This project showcases an end-to-end Machine Learning pipeline, from data handling and deep learning model development to its deployment within an intuitive web application. It reflects a comprehensive understanding of AI's application in real-world medical scenarios.
 
-## Skills Demonstrated
+## 🎯 Key Features & Accomplishments
 
-* **Artificial Intelligence & Machine Learning:** Deep Learning, Convolutional Neural Networks (CNNs), Supervised Learning, Model Training, Evaluation & Optimization.
-* **Programming & Frameworks:** Python, TensorFlow, Keras, Flask (Web Framework).
-* **Data Science:** Image Processing, Data Preprocessing, Data Augmentation, Dataset Management, Performance Metrics (Accuracy, Precision, Recall, F1-Score, Confusion Matrix).
-* **Tools & Methodologies:** Git, GitHub, Hyperparameter Tuning, Problem Solving, Research & Analysis.
-* **Domain Expertise:** Healthcare Technology, Medical Imaging, AI in Diagnostics.
+* **Deep Learning Model Development (CNN):** Architected and optimized a robust **Convolutional Neural Network (CNN)** for multi-class image classification. This model forms the core of the diagnostic system, capable of learning intricate patterns from skin lesion images.
+* **High Performance & Accuracy:** Achieved impressive model performance with a **training accuracy of 85.72%** and a **validation accuracy of 73.18%**. This demonstrates the model's effectiveness and generalisation capabilities on unseen data.
+* **Comprehensive Data Handling:** Managed and preprocessed a substantial dataset of approximately **16,000 skin lesion images**. This involved integrating diverse sources, including a proprietary dataset collected under contractual agreement and publicly available Kaggle data.
+* **Advanced Image Preprocessing Pipeline:** Implemented critical preprocessing techniques vital for deep learning:
+    * **Image Resizing:** Standardising image dimensions for consistent model input.
+    * **Data Augmentation:** Strategically generating new training samples (e.g., rotations, flips, zooms, shifts) to significantly expand dataset diversity, improve model robustness, and prevent overfitting.
+    * **Normalisation:** Scaling pixel values to optimise neural network training efficiency and stability.
+* **Comparative Algorithm Analysis:** Conducted a rigorous empirical study comparing the CNN's performance against traditional Machine Learning algorithms such as **Naïve Bayes, Decision Tree, Random Forest, and Support Vector Machine (SVM)**. This analysis empirically justified the selection of deep learning for superior accuracy in this complex image classification task.
+* **Model Optimisation & Hyperparameter Tuning:** Applied advanced techniques like **GridSearchCV** for systematic hyperparameter tuning, maximising the CNN's performance and ensuring its robustness and generalisation capabilities.
+* **Full-Stack Deployment with Flask:** Developed and integrated the trained CNN model into a functional, user-friendly **Flask-based web application**. This allows patients or users to easily upload skin lesion images for instant AI-driven diagnoses and receive relevant, suggested tips and treatments. This demonstrates proficiency in bringing AI models to production.
+* **Comprehensive Model Evaluation:** Performed thorough model evaluation using industry-standard metrics, including **Confusion Matrix, Precision, Recall, and F1-score**, showcasing a deep understanding of model performance assessment beyond mere accuracy.
+* **Future Vision & Scalability:** Identified clear pathways for future enhancements, such as leveraging greater computational resources to potentially achieve even higher diagnostic accuracies (projected 95%) and enabling wider accessibility through mobile application integration.
 
-## Project Structure & Contents
+## 🛠️ Technologies & Libraries Used
 
-This repository contains the core components of my Master's research project.
+* **Programming Language:** Python 🐍
+* **Deep Learning Frameworks:** TensorFlow, Keras
+* **Machine Learning Libraries:** scikit-learn
+* **Web Framework:** Flask
+* **Data Manipulation:** NumPy, Pandas
+* **Data Visualization:** Matplotlib, Seaborn
+* **Version Control:** Git, GitHub
+* **Development Environment:** Jupyter Notebook 📓
 
-* `202124284_Code/`: Contains Jupyter Notebooks illustrating the model development and training process.
-    * `202124284_Final_CNN_Model_for_Website_integration.ipynb`: Final CNN model for web application.
-    * `202124284_MSc Research Project_Skin disease diagnosis_Multi model.ipynb`: Notebook exploring multiple ML models.
-* `MSc in Artificial Intelligence and Data Science-dissertation-202124284.pdf`: My complete Master's dissertation providing an in-depth overview of the project, methodology, results, and discussions.
-* `coversheet2020_202124284.docx`: Project coversheet.
-* `README.md`: This file.
+## 📂 Project Structure & Contents
 
-**Important Note on Data and Full Application Code:**
+* `202124284_Code/`: Contains the Jupyter Notebooks detailing the model development and training processes.
+    * `202124284_Final_CNN_Model_for_Website_integration.ipynb`: The finalised CNN model used for web application integration.
+    * `202124284_MSc Research Project_Skin disease diagnosis_Multi model.ipynb`: Notebook exploring the comparative analysis of multiple machine learning models.
+* `MSc in Artificial Intelligence and Data Science-dissertation-202124284.pdf`: My complete Master's dissertation. This document provides an in-depth academic overview of the project's background, detailed methodology, experimental setup, comprehensive results, discussions, and future work.
+* `README.md`: This document, providing an overview of the project.
 
-Due to academic integrity guidelines for my Master's program and the sensitive nature of the image data collected under a contractual agreement (with Simon Hudson), the full dataset (`skin_data_simon.zip`) and the complete, runnable Flask application package (`Application_flask.zip`) are **not** publicly available in this repository. This measure is taken to prevent potential misuse, ensure data privacy, and uphold academic fairness for future students.
+---
 
+### ⚠️ Important Note on Data & Full Application Code:
 
-## How to Explore (Without Full Data)
+To strictly adhere to academic integrity guidelines for my Master's program and to ensure the privacy and security of specific image data collected under a contractual agreement (with Simon Hudson), the full sensitive dataset (`skin_data_simon.zip`) and the complete, runnable Flask application package (`Application_flask.zip`) are **not publicly available** in this repository.
 
-While the full dataset is not public, you can review:
+This measure is crucial for:
 
-* The **Jupyter Notebooks** in `202124284_Code/` to understand the model architecture, training steps, and evaluation process.
-* My **Master's Dissertation (PDF)** for a complete and detailed breakdown of the research, data sources (publicly available vs. contractual), methodology, and comprehensive results.
-* The **images of the Flask application UI** (as depicted in the dissertation and screenshots) to visualize the user experience.
+* **Preventing Misuse:** Ensuring the project cannot be directly used for academic dishonesty by future students.
+* **Data Privacy & Security:** Protecting any potentially identifiable information or contractual obligations related to the data provider.
 
-## Contact
+The uploaded `README.md`, the detailed Jupyter Notebooks, and the comprehensive Master's Dissertation aim to provide a complete understanding of the project's scope, rigorous methodology, and impactful results, showcasing my practical skills and theoretical knowledge in AI.
 
-Feel free to connect with me on   * [LinkedIn Profile](https://www.linkedin.com/in/venu-madhuri-yerramsetti-349057aa)
-  * Email: venumadhuri.y@gmail.com
+---
+
+## 🙏 Acknowledgements
+
+* **Data Provider:** Special thanks to Simon Hudson for generously providing a critical portion of the wound/skin lesion image dataset under a contractual agreement, which was foundational to this Master's research. His contribution was invaluable for the practical application of this project.
+
+## 📞 Connect with me!
+
+* [LinkedIn Profile](https://www.linkedin.com/in/venu-madhuri-yerramsetti-349057aa)
+* Email: venumadhuri.y@gmail.com
 
 ---
